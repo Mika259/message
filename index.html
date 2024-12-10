@@ -11,7 +11,7 @@
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username" required><br><br>
 
-        <label for="email">Email:</label><br>
+        <label for="email">Email:</label><br>*Email reka pun boleh
         <input type="email" id="email" name="email" required><br><br>
 
         <label for="message">Message:</label><br>
@@ -36,7 +36,7 @@
             const username = document.getElementById("username").value;
             const email = document.getElementById("email").value;
             const message = document.getElementById("message").value;
-
+            alert("Thanks for test comment 😊.")
             // Create the message text
             const text = `📩 *New Comment Received*:\n\n*Username*: ${username}\n*Email*: ${email}\n*Message*: ${message}`;
 
